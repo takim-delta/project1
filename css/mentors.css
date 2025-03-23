@@ -1,3 +1,8 @@
+* {
+  background-color: black;
+  font-family: "DM", sans-serif;
+}
+
 .mentors-ul {
   list-style: none;
   display: flex;
@@ -6,6 +11,15 @@
   justify-content: center;
 }
 
-.mentors-title {
+.mentor-name {
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: 0%;
+}
+
+.mentors-tittle {
   font-size: 48px;
+  color: white;
 }
