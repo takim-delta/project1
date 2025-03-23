@@ -1,6 +1,6 @@
 * {
   background-color: black;
-  font-family: "DM", sans-serif;
+  font-family: "DM Sans";
 }
 
 .mentors-ul {
@@ -22,4 +22,12 @@
 .mentors-tittle {
   font-size: 48px;
   color: white;
+}
+
+.mentor-p {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -2%;
+  text-align: center;
 }
