@@ -1,0 +1,97 @@
+<!-- Header -->
+<link rel="stylesheet" href="/css/header.css" />
+<header class="header">
+  <div class="header-container">
+    <div class="navbar-container">
+      <nav class="navbar">
+        <a href="#" class="header-link-logo">
+          <svg width="123" height="16" class="header-icon-logo">
+            <use href="/images/icons.svg#icon-logo"></use>
+          </svg>
+        </a>
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link">About us </a>
+          </li>
+          <li class="navbar-item">
+            <a href="#courses" class="navbar-link">Our courses</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#mentors" class="navbar-link">Our mentors</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#reviews" class="navbar-link">Reviews</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#footer" class="navbar-link">Contacts</a>
+          </li>
+        </ul>
+        <a href="#sign" class="sign-camera">
+          <svg width="16" height="16" class="sign-camera-icon">
+            <use href="/images/icons.svg#icon-header-camera"></use>
+          </svg>
+        </a>
+        <button class="header-btn-menu" type="button">
+          <svg width="32" height="22" class="header-btn-menu-icon hbmi-mob">
+            <use href="/images/icons.svg#icon-menu-open"></use>
+          </svg>
+          <svg width="40" height="28" class="header-btn-menu-icon hbmi-tab">
+            <use href="/images/icons.svg#icon-menu-open"></use>
+          </svg>
+        </button>
+      </nav>
+    </div>
+    <a href="#sign" class="header-btn">Sign up</a>
+  </div>
+  <!--Hamburger Menu-->
+  <div class="mobile-menu">
+    <div class="mobile-menu-container">
+      <div class="mobile-menu-box">
+        <button type="button" class="mobile-btn-close">
+          <svg width="32" height="32" class="mobile-btn-close-icon">
+            <use href="/images/icons.svg#icon-menu-close"></use>
+          </svg>
+        </button>
+
+        <ul class="mobile-nav-menu">
+          <li class="mobile-nav-list">
+            <a href="#about" class="mobile-item-link">About us</a>
+          </li>
+          <li class="mobile-nav-list">
+            <a href="#courses" class="mobile-item-link">Our courses</a>
+          </li>
+          <li class="mobile-nav-list">
+            <a href="#mentors" class="mobile-item-link">Our mentors</a>
+          </li>
+          <li class="mobile-nav-list">
+            <a href="#reviews" class="mobile-item-link">Reviews</a>
+          </li>
+          <li class="mobile-nav-list">
+            <a href="#footer" class="mobile-item-link">Contacts</a>
+          </li>
+        </ul>
+      </div>
+      <picture>
+        <source
+          srcset="
+            /images/header/h.menu-camera-tab.jpg    1x,
+            /images/header/h.menu-camera-tab-2x.jpg 2x
+          "
+          media="(min-width:768px)"
+        />
+        <source
+          srcset="
+            /images/header/h.menu-camera-mob.jpg    1x,
+            /images/header/h.menu-camera-mob-2x.jpg 2x
+          "
+          media="(min-width:320px)"
+        />
+        <img
+          src="/images/header/h.menu-camera-mob.jpg"
+          alt="Camera"
+          class="header-img"
+        />
+      </picture>
+    </div>
+  </div>
+</header>
