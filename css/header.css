@@ -1,4 +1,6 @@
-
+ul {
+  list-style: none;;
+}
 .header {
   position: relative;
   width: 100%;
@@ -11,7 +13,7 @@
   top: 20px;
   left: 50%;
   transform: translateX(-50%);
-  max-width: 375px;
+  max-width: 386px;
   width: 100%;
   padding: 0 20px;
   z-index: 100;
@@ -23,7 +25,6 @@
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 12px;
-  padding: 10px 20px;
 }
 
 .navbar {
@@ -46,6 +47,7 @@
 
 .header-icon-logo {
   fill: #fff;
+  padding: 15px 0 15px 20px;
 }
 
 .navbar-list {
@@ -61,7 +63,7 @@
   justify-content: center;
   background-color: transparent;
   cursor: pointer;
-  padding: 0;
+  padding: 16px 20px 16px 0px; 
   border: none;
 }
 
@@ -94,6 +96,11 @@
 
 .hbmi-tab {
   display: none;
+}
+
+.header-btn {
+  display: none;
+  visibility: hidden;
 }
 
 .mobile-menu {
@@ -218,6 +225,7 @@
     max-height: 414px;
   }
   .header-btn {
+    visibility: visible;
     flex-shrink: 0;
     position: relative;
     overflow: hidden;
@@ -249,6 +257,7 @@
     padding: 0 50px;
   }
   .header-icon-logo {
+   
     margin-right: 0;
   }
 
@@ -282,6 +291,7 @@
   }
   .header-btn {
     width: 238px;
+    visibility: visible;
   }
 }
 
