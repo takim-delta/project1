@@ -13,7 +13,7 @@
   color: white;
   margin: 78px;
   line-height: 54px;
-  letter-spacing: 4%;
+  letter-spacing: 0.04em;
 }
 
 .mentors-ul {
@@ -31,7 +31,7 @@
   text-align: center;
   font-size: 28px;
   line-height: 32px;
-  letter-spacing: 0%;
+
   flex-wrap: nowrap;
 }
 
@@ -39,6 +39,5 @@
   color: #ffffff80;
   font-size: 14px;
   line-height: 18px;
-  letter-spacing: -2%;
   text-align: center;
 }
